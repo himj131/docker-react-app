@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         HI WINTER!
+         HI WINTER! let's learn react
         </a>
       </header>
     </div>
