@@ -9,8 +9,8 @@ before_install:
   - echo "start creating an image with dockerfile"
   - docker build -t himj131/docker-react-app -f Dockerfile.dev .
 
-script:
-  - docker run -e CI=true himj131/docker-react-app npm run test -- -- coverage
+#script:
+#  - docker run -e CI=true himj131/docker-react-app npm run test -- -- coverage
 
 deploy:
   provider: elasticbeanstalk
